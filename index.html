@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./responsivo.css" />
+
+    <title>Projeto Marvel vs Dc</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        class="logo"
+        width="300px"
+        src="./images/./logo-cabecalho2.jpg"
+        alt="logo marvel versus dc"
+      />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-personagens">
+          <li
+            class="personagem selecionado"
+            id="Thor"
+            data-name="Thor"
+            data-description="Thor é um deus do trovão, possui uma enorme força e velocidade
+            sobre-humanas. Também é capaz de controlar os elementos da
+            tempestade, gerando trovões, relâmpagos, raios."
+          >
+            <img src="./images/thor-perfil.jpg" alt="personagem thor" />
+          </li>
+
+          <li
+            class="personagem"
+            id="iron-man"
+            data-name="Homen de Ferro"
+            data-description="O Homem de Ferro possui uma armadura motorizada que lhe dá voo, força e durabilidade sobre-humanas e uma variedade de armas."
+          >
+            <img
+              src="./images/ironman-perfil.jpg"
+              alt=" personagem homem de ferro"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="dead-pool"
+            data-name="Dead Pool"
+            data-description="Deadpool, cujo nome verdadeiro é Wade Winston Wilson, é um mercenário canadense marcado por ser falastrão, violento e principalmente por ser comediante e a partir ficou conhecido como o mercenário tagarela Tem também o fator de cura que o faz sobreviver aos piores ferimentos."
+          >
+            <img
+              src="./images/deadpool-perfil.jpg"
+              alt="personagem dead pool"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="viuva-negra"
+            data-name="Viúva Negra"
+            data-description="Natasha Romanoff, também conhecida como Viúva Negra,Ela se cura mais rápido do que um humano normal, e quase nunca fica doente.possui um domínio da linguagem corporal tão completo que poderia até enganar qualquer um"
+          >
+            <img src="./images/viuva-negra.jpg" alt=" personagem viuva negra" />
+          </li>
+
+          <li
+            class="personagem"
+            id="super-man"
+            data-name="Super Homen"
+            data-description="O super-homem é um extraterrestre nativo do planeta Krypton. Conhecido como o homem de aço, o herói possui força sobre-humana, visão de raios x e pode voar. A única fraqueza desse famoso personagem é um minério chamado de Kryptonita, que só existe em seu planeta natal."
+          >
+            <img
+              src="./images/superman-perfil.jpg"
+              alt=" personagem super homen"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="batman"
+            data-name="Batman"
+            data-description="Ao contrário da maior parte dos super-heróis, Batman não tem superpoderes; assim, na sua guerra contra o crime, utiliza seu intelecto de gênio, sua perícia em artes marciais e sua destreza física — bem como sua riqueza, que lhe garante um enorme arsenal de armas e equipamentos de última geração."
+          >
+            <img src="./images/batman-perfil.jpg" alt="personagem batman" />
+          </li>
+
+          <li
+            class="personagem"
+            id="coringa"
+            data-name="Coringa"
+            data-description="Ele foi retratado como um homem lunático que matava as pessoas com soro que as deixavam com um sorriso fixo no rosto.Coringa possui um arsenal enorme de vários tipos de armas (Cartas Afiadas, por exemplo). Muitas delas presentes em simples brinquedos que usa para fazer piadas (Aperto de Mão que dá Choque), porém já usou armas de fogo. Quando não tem nenhuma arma, ele costuma improvisar, usando qualquer coisa a seu redor."
+          >
+            <img
+              src="./images/coringa-perfil.jpg"
+              alt="personagem coringa-perfil"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="mulher-maravilha"
+            data-name="Mulher Maravilha"
+            data-description=" Diana Prince ou Mulher Maravilha possui vastos poderes alguns deles sao, Invulnerabilidade, Fator de Cura, Sentidos Aprimorados, Agilidade Sobre-Humana, Projeção e Manipulação de Energia, criação e manipulação de eletricidade,voo,super-velocidade e longevidade."
+          >
+            <img
+              src="./images/mulher-maravilha-perfil.jpg"
+              alt=" personagem mulher maravilha"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          src="./images/card-thor-selecionado.jpg"
+          class="personagem-grande"
+          alt="thor selecionado"
+        />
+
+        <div class="informacoes-personagens">
+          <h2 class="nome-personagem" id="nome-personagem">Thor</h2>
+
+          <p class="descricao-personagem" id="descricao-personagem">
+            Thor é um deus do trovão, possui uma enorme força e velocidade
+            sobre-humanas. Também é capaz de controlar os elementos da
+            tempestade, gerando trovões, relâmpagos, raios.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
